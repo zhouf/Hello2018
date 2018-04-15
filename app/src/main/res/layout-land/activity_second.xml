@@ -46,17 +46,10 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="btn3"
-                    android:text="@string/btn3_label" />
-
-                <Button
                     android:id="@+id/btn1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
                     android:layout_weight="1"
                     android:onClick="btn1"
                     android:text="@string/btn1_label" />
@@ -65,9 +58,19 @@
                     android:id="@+id/btn2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
                     android:layout_weight="1"
                     android:onClick="btn2"
                     android:text="@string/btn2_label" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:onClick="btn3"
+                    android:text="@string/btn3_label" />
             </LinearLayout>
 
         </LinearLayout>
@@ -93,7 +96,7 @@
                 android:id="@+id/team_name2"
                 android:textSize="20sp"
                 android:gravity="center"
-                android:text="@string/tname_label" />
+                android:text="@string/tname_labelb" />
 
             <TextView
                 android:text="0"
@@ -109,17 +112,10 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn3b"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="btn3"
-                    android:text="@string/btn3_label" />
-
-                <Button
                     android:id="@+id/btn2b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
                     android:layout_weight="1"
                     android:onClick="btn2"
                     android:text="@string/btn2_label" />
@@ -128,9 +124,19 @@
                     android:id="@+id/btn1b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
                     android:layout_weight="1"
                     android:onClick="btn1"
                     android:text="@string/btn1_label" />
+
+                <Button
+                    android:id="@+id/btn3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:onClick="btn3"
+                    android:text="@string/btn3_label" />
             </LinearLayout>
 
         </LinearLayout>
@@ -138,13 +144,14 @@
     </LinearLayout>
 
 
+
     <Button
-        android:id="@+id/reset"
+        android:text="@string/btn_reset_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
+        android:id="@+id/reset"
         android:onClick="btnReset"
-        android:text="@string/btn_reset_label" />
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
