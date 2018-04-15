@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="hello">Happy Birthday!</string>
+    <string name="from">Tom</string>
+    <string name="btn_label">Button</string>
+    <string name="show_label">Hello android</string>
+    <string name="btn_reset_label">Reset</string>
+    <string name="btn3_label">+3 points</string>
+    <string name="btn2_label">+2 points</string>
+    <string name="btn1_label">+1 point</string>
+    <string name="tname_label">TeamA</string>
+    <string name="btn_dollar_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+    <string name="rmb_hint_label">Input RMB</string>
+    <string name="btn_opencfg_label">Config</string>
+    <string name="btn_save_label">Save</string>
+    <string name="menu_set_label">Setting</string>
+</resources>
